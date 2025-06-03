@@ -1,6 +1,6 @@
 // Demonstrate how one would use co_await with epoll
 // To compile
-// g++ -o echo_server echo_server.cpp -std=c++23 -O0 -g
+// g++ -o epoll_echo_server epoll_echo_server.cpp -std=c++23 -O0 -g
 #include <netinet/in.h>
 #include <sys/epoll.h>
 #include <sys/socket.h>
